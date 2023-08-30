@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'lato', sans-serif;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/pixel-sort-5362750.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.tabcontent {
+    display: none;
+  }
+
+button {
+    background-color: #f1f1f1;
+    color: #1c4966;
+    border: 2px solid #1c4966;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #1c4966;
+    color: #fff;
+}
+
+button:hover>i {
+    color: #fff;
+}
+
+button i {
+    color: #1c4966;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+input {
+    padding: .3rem .6rem;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    max-width: 450px;
+    margin: 3rem auto;
+    background-color: #D3D3D3;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #575656;
+}
+
+#form-adic,
+#form-edit {
+    padding: 1rem;
+    border-bottom: 1px solid #575656;
+}
+
+#form-adic p,
+#form-edit p {
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+
+#control-form {
+    display: flex;
+}
+
+#btn-edit-x {
+    margin-top: .9rem;
+}
+
+#form-concluidas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #575656;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #575656;
+    transition: .3s;
+}
+
+.item h3 {
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+.item button {
+    margin-left: 0.4rem;
+}
+
+.done {
+    background-color: #A9A9A9;
+}
+
+.done h3{
+    text-decoration: line-through;
+    font-style: italic;
+    
+}

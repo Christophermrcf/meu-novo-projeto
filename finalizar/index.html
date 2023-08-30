@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <div class="container">
+        <header>
+            <h1>Tag list</h1>
+        </header>
+
+        <form id="form-adic">
+            <p>Coloque seu objetivo:</p>
+            <div id="control-form">
+                <input type="text" placeholder="digite algo que deseja melhorar" id="objetivo" class="objetivo">
+                <button type="submit" class="enviar"><i class="fa-thin fa-plus"></i></button>
+            </div>
+        </form>
+
+        <form class="hide" id="form-edit">
+            <p>Edite seu objetivo</p>
+            <div id="control-form">
+                <input type="text" id="edit-text">
+                <button type="submit"><i class="fa-solid fa-check-double"></i></button>
+            </div>
+            <button id="btn-edit-x">Cancelar</button>
+        </form>
+
+
+        <div id="lista">
+
+        </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
